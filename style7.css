@@ -1,0 +1,143 @@
+.headding7{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			border:2px solid black;
+			padding: 1%;
+			background-color: #808080;
+			box-shadow: 3px 3px 3px black;
+		}
+		.l7{
+			height: 60%;
+		}
+		.sl7{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			border: 2px solid black;
+			padding: 1%;
+			margin-top: 1% ;
+			background-color: #808080;
+			
+			padding-right: 2%;
+			box-shadow: 3px 3px 3px black;
+		}
+		.button7{
+			border: 0px;
+			background-color: #606060;
+			color: white;
+			
+			width: 100%;
+			font-size: 140%;
+
+
+
+		}
+		.button7:hover{
+			background-color: black;
+			color: #C0C0C0
+		}
+		.m7{
+			color: white;
+			margin-top: -1%;
+			margin-bottom: 1%
+		}
+		.headdingtext7{
+			margin-top: 8%;font-size: 200%;
+		}
+		body{
+			background-color: #404040;
+
+		}
+		.footer7{
+			background-color: rgb(32,32,32);color:rgb(153,153,255);text-align: center;padding: 1%;font-size: 123%;margin-top: 1%;;box-shadow: 3px 3px 3px black;
+		}
+		.fs7{
+				color: orange;
+		}
+		.hs7{
+			font-size: 45%;margin-left: 15%;
+		}
+		.mh7{
+			color: #C0C0C0
+		}
+		.ms7{
+			 margin-left: 5%
+		}
+		.triple7 img{
+			width: 100%
+		}
+		.table7 th , td {
+
+
+ 		border: 2px solid black;
+ 		border-collapse: separate;
+ 		padding: .5%
+		}
+		.table7{
+			margin-left: auto;
+			margin-right: auto;
+			width: 55%
+
+		}
+		.triple7{
+			margin: 0%;
+			padding: 1%;
+			border: 2px solid black;
+			text-align: center;
+			
+			background-color: #C0C0C0;
+			font-size: 130%
+		}
+		.last-button7{
+			border: 0px;
+			background-color: #606060;
+			color: white;
+			
+			
+			font-size: 100%;
+			margin-top: 2%
+
+
+
+		}
+		.last-button7:hover{
+			background-color: black;
+			color: #C0C0C0
+		}
+		@media only screen and (min-width: 300px) and (max-width: 767px){
+
+
+				.headding7{
+	flex-direction: column;
+
+	
+
+}
+.headding7 img{
+	width: 100%
+}
+.headdingtext7{
+	text-align: center;
+
+}
+.sl7{
+	display: flex;
+	flex-direction: column;
+}
+
+.button7{
+	margin: 1%;
+	margin-left: .5%;
+	margin-bottom: 1.5%
+}
+.table7{
+	width: 100%
+}
+
+
+
+
+		}

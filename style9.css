@@ -1,0 +1,143 @@
+.headding9{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			border:2px solid black;
+			padding: 1%;
+			background-color: #808080;
+			box-shadow: 3px 3px 3px black;
+		}
+		.l9{
+			height: 60%;
+		}
+		.sl9{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			border: 2px solid black;
+			padding: 1%;
+			margin-top: 1% ;
+			background-color: #808080;
+			
+			padding-right: 2%;
+			box-shadow: 3px 3px 3px black;
+		}
+		.button9{
+			border: 0px;
+			background-color: #606060;
+			color: white;
+			
+			width: 100%;
+			font-size: 140%;
+
+
+
+		}
+		.button9:hover{
+			background-color: black;
+			color: #C0C0C0
+		}
+		.m9{
+			color: white;
+			margin-top: -1%;
+			margin-bottom: 1%
+		}
+		.headdingtext9{
+			margin-top: 8%;font-size: 200%;
+		}
+		body{
+			background-color: #404040;
+
+		}
+		.footer9{
+			background-color: rgb(32,32,32);color:rgb(153,153,255);text-align: center;padding: 1%;font-size: 123%;margin-top: 1%;;box-shadow: 3px 3px 3px black;
+		}
+		.fs9{
+				color: orange;
+		}
+		.hs9{
+			font-size: 45%;margin-left: 15%;
+		}
+		.mh9{
+			color: #C0C0C0
+		}
+		.ms9{
+			 margin-left: 5%
+		}
+		.thruxton9 img{
+			width: 100%
+		}
+		.table9 th , td {
+
+
+ 		border: 2px solid black;
+ 		border-collapse: separate;
+ 		padding: .5%
+		}
+		.table9{
+			margin-left: auto;
+			margin-right: auto;
+			width: 55%
+
+		}
+		.thruxton9{
+			margin: 0%;
+			padding: 1%;
+			border: 2px solid black;
+			text-align: center;
+			
+			background-color: #C0C0C0;
+			font-size: 130%
+		}
+		.last-button9{
+			border: 0px;
+			background-color: #606060;
+			color: white;
+			
+			
+			font-size: 100%;
+			margin-top: 2%
+
+
+
+		}
+		.last-button9:hover{
+			background-color: black;
+			color: #C0C0C0
+		}
+		@media only screen and (min-width: 300px) and (max-width: 767px){
+
+
+				.headding9{
+	flex-direction: column;
+
+	
+
+}
+.headding9 img{
+	width: 100%
+}
+.headdingtext9{
+	text-align: center;
+
+}
+.sl9{
+	display: flex;
+	flex-direction: column;
+}
+
+.button9{
+	margin: 1%;
+	margin-left: .5%;
+	margin-bottom: 1.5%
+}
+.table9{
+	width: 100%
+}
+
+
+
+
+		}

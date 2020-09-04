@@ -1,0 +1,159 @@
+	
+			.headding0{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			border:2px solid black;
+			padding: 1%;
+			background-color: #808080;
+			box-shadow: 3px 3px 3px black;
+		}
+		.l0{
+			height: 60%;
+		}
+		.sl0{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			border: 2px solid black;
+			padding: 1%;
+			margin-top: 1% ;
+			background-color: #808080;
+			
+			padding-right: 2%;
+			box-shadow: 3px 3px 3px black;
+		}
+		.button0{
+			border: 0px;
+			background-color: #606060;
+			color: white;
+			
+			width: 100%;
+			font-size: 140%;
+
+
+
+		}
+		.button0:hover{
+			background-color: black;
+			color: #C0C0C0
+		}
+		.m0{
+			color: white;
+			margin-top: -1%;
+			margin-bottom: 1%
+		}
+		.headdingtext0{
+			margin-top: 8%;font-size: 200%;
+		}
+		body{
+			background-color: #404040;
+
+		}
+		.testride0{
+
+			border: 2px solid black;
+			padding: 1%;
+			background-color:  #808080;
+			box-shadow: 3px 3px 3px black;
+			margin-right: 1%;
+			justify-content: space-around;
+			width: 97.7%;
+			margin-top: 2%;
+			margin-bottom: 0%
+		}
+		.testride0 h1{
+			text-align: center;
+		}
+		.form0{
+
+			border: 2px solid black;
+			border-style: double;
+			
+			margin-left: auto;
+			margin-right: auto;
+			width: 30%;
+			padding-left: 5%;
+			padding-top: 3%;
+			padding-bottom: 2% ;
+			background-color: #C0C0C0;			
+
+		}
+
+		.fb10{
+			margin-left: 13%;
+			border: 0px;
+			background-color: #606060;
+
+		
+			color: white;
+			font-size: 111%
+
+
+		}
+		.fb10:hover{
+			background-color: black;
+			color: #C0C0C0
+		}
+		
+		.box0{
+			margin-left: 5%
+		}
+
+		
+		@media only screen and (min-width: 300px) and (max-width: 767px){
+
+					.form0{
+						width: 94%;
+						margin-left: 0%
+					}
+					.fb10{
+						margin-left: 37%
+					}
+					.l0{
+						width: 100%
+					}
+					
+					.sl0{
+						flex-direction: column;
+					}
+					.headdingtext0{
+						text-align: center;
+					
+					}
+
+					.button0{
+					margin: 1%;
+					margin-left: .5%;
+					margin-bottom: 1.5%
+					}
+
+				}
+				@media only screen and (min-width: 768px) and (max-width: 1023px) {
+					.form0{
+						width: 50%;
+						padding: 3%
+					}
+				}
+				
+
+.footer0{
+			background-color: rgb(32,32,32);color:rgb(153,153,255);text-align: center;padding: 1%;font-size: 123%;margin-top: 1%;;box-shadow: 3px 3px 3px black;
+		}
+		.fs0{
+				color: orange;
+		}
+		.hs0{
+			font-size: 45%;margin-left: 15%;
+		}
+		.mh0{
+			color: #C0C0C0
+		}
+		.ms0{
+			 margin-left: 5%
+		}
+		.mobile0{
+			font-size: 140%
+		}

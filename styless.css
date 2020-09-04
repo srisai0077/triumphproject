@@ -1,0 +1,185 @@
+.flexss{
+			display: flex;
+		}
+		.flexss img{
+			width: 25%
+		}
+		.headdingss{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			border:2px solid black;
+			padding: 1%;
+			background-color: #808080;
+			box-shadow: 3px 3px 3px black;
+		}
+		.lss{
+			height: 60%;
+		}
+		.slss{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			border: 2px solid black;
+			padding: 1%;
+			margin-top: 1% ;
+			background-color: #808080;
+			
+			padding-right: 2%;
+			box-shadow: 3px 3px 3px black;
+		}
+		.buttonss{
+			border: 0px;
+			background-color: #606060;
+			color: white;
+			
+			width: 100%;
+			font-size: 140%;
+
+
+
+		}
+		.buttonss:hover{
+			background-color: black;
+			color: #C0C0C0
+		}
+		.mss{
+			color: white;
+			margin-top: -1%;
+			margin-bottom: 1%
+		}
+		.headdingtextss{
+			margin-top: 8%;font-size: 200%;
+		}
+		
+		.divisionss img{
+			width: 98%
+		}
+		.servicecontainerss{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			border: 2px solid black;
+			padding: 1%;
+			background-color:  #808080;
+			box-shadow: 3px 3px 3px black;
+			margin-right: 1%;
+			justify-content: space-around;
+			width: 97.7%;
+			margin-top: 2%;
+			margin-bottom: 0%
+		}
+		.divisionss{
+			width: 45%;
+			
+			margin: 1%;
+			padding: 1%;
+			border: 2px solid black;
+			
+			background-color: #C0C0C0;
+			text-align: center;
+		}
+		body{
+			background-color: #404040;
+
+		}
+		.main-buttonss{
+			border: 0px;
+			background-color: #606060;
+			color: white;
+			
+			
+			font-size: 140%;
+
+
+
+		}
+		.main-buttonss:hover{
+			background-color: black;
+			color: #C0C0C0
+		}
+		.cover1ss{
+			width: 100%;
+			box-shadow: 3px 3px 3px black;
+		}
+		.middleheaddingss{
+
+				text-align: center;
+		}
+		.middleheaddingss hr{
+			border-top: 1px solid black;
+			width: 10%
+		}
+		.middleheaddingss h4{
+			color: #C0C0C0;
+		}
+
+		@media only screen and (min-width: 300px) and (max-width: 767px){
+
+			.servicecontainerss{
+				flex-direction: column;
+			}
+			.divisionss img{
+				width: 100%
+			}
+			.divisionss{
+				width: 95%
+			}
+			.lss{
+				width: 100%
+			}
+			.headdingtextss{
+				text-align: center;
+			}
+			.main-buttonss{
+				width: 49%;
+				text-align: center;
+
+				margin-left: 25%;
+				padding: 1%;
+				margin-top: 1%;
+				margin-bottom: 1%;
+				border: 0px;
+				background-color: #606060;
+				color: white;
+
+			}
+
+			.buttonss{
+				margin: 1%;
+				margin-left: .5%;
+				margin-bottom: 1.5%
+			}
+
+			.cover1ss{
+			width: 100%;
+			box-shadow: 3px 3px 3px black;
+
+		}
+		.slss{
+						flex-direction: column;
+					}
+		}
+		.footerss{
+			background-color: rgb(32,32,32);
+			color:rgb(153,153,255);
+			text-align: center;
+			padding: 1%;
+			font-size: 123%;
+			margin-top: 1%;
+			box-shadow: 3px 3px 3px black;
+		}
+		.fsss{
+				color: orange;
+		}
+		.hsss{
+			font-size: 45%;margin-left: 15%;
+		}
+		.mhss{
+			color: #C0C0C0
+		}
+		.msss{
+			 margin-left: 5%
+		}

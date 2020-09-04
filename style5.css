@@ -1,0 +1,165 @@
+.headding5{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			border:2px solid black;
+			padding: 1%;
+			background-color: #808080;
+			box-shadow: 3px 3px 3px black;
+		}
+		.l5{
+			height: 60%;
+		}
+		.sl5{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			border: 2px solid black;
+			padding: 1%;
+			margin-top: 1% ;
+			background-color: #808080;
+			
+			padding-right: 2%;
+			box-shadow: 3px 3px 3px black;
+		}
+		.button5{
+			border: 0px;
+			background-color: #606060;
+			color: white;
+			
+			width: 100%;
+			font-size: 140%;
+
+
+
+		}
+		.button5:hover{
+			background-color: black;
+			color: #C0C0C0
+		}
+		.m5{
+			color: white;
+			margin-top: -1%;
+			margin-bottom: 1%
+		}
+		.headdingtext5{
+			margin-top: 8%;font-size: 200%;
+		}
+		body{
+			background-color: #404040;
+
+		}
+		.footer5{
+			background-color: rgb(32,32,32);color:rgb(153,153,255);text-align: center;padding: 1%;font-size: 123%;margin-top: 1%;;box-shadow: 3px 3px 3px black;
+		}
+		.fs5{
+				color: orange;
+		}
+		.hs5{
+			font-size: 45%;margin-left: 15%;
+		}
+		.mh5{
+			color: #C0C0C0
+		}
+		.ms5{
+			 margin-left: 5%
+		}
+		.customize5 video{
+			width: 100%
+
+		}
+		.customize5 h1, p{
+			text-align: center;
+		}
+		.customize5{
+			border: 2px solid black;
+			
+			background-color: #808080;
+			
+			padding: 1%;
+
+			width: 97.8%;
+
+		}
+		.form5{
+
+			border: 2px solid black;
+			border-style: double;
+			
+			margin-left: auto;
+			margin-right: auto;
+			width: 30%;
+			padding-left: 5%;
+			padding-top: 3%;
+			padding-bottom: 2% ;
+			background-color: #C0C0C0;			
+
+		}
+
+		.fb15{
+			margin-left: 30.5%;
+			border: 0px;
+			background-color: #606060;
+
+		
+			color: white;
+			font-size: 111%
+
+
+		}
+		.fb15:hover{
+			background-color: black;
+			color: #C0C0C0
+		}
+		
+		.box5{
+			margin-left: 5%
+		}
+		.mobile25{
+			font-size: 120%
+		}
+		.mobile5{
+			font-size: 140%
+		}
+
+
+
+		@media only screen and (min-width: 300px) and (max-width: 767px){
+
+			.headding5{
+						flex-direction: column;
+			}
+			.form5{
+				width: 94%
+			}
+			.headding5 img{
+	width: 100%
+}
+			.fb15{
+				margin-left: 35%
+			}
+			.sl5{
+	display: flex;
+	flex-direction: column;
+}
+
+.button5{
+	margin: 1%;
+	margin-left: .5%;
+	margin-bottom: 1.5%
+}
+.headdingtext5{
+	text-align: center
+}
+}
+		@media only screen and (min-width: 768px) and (max-width: 1023px) {
+					.form5{
+						width: 50%;
+						padding: 3%
+					}
+					.fb15{
+						margin-left: 35%
+					}
+				}
